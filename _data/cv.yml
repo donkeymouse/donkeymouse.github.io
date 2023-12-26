@@ -2,96 +2,120 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Dong-Guw (David) Lee
+    - name: Skills
+      value: Python, C++, MATLAB, Pytorch/TensorFlow, mmcv/mmdetection
     - name: Languages
-      value: English, German
+      value: English (native), Korean (native)
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Thermal Infrared Imaging
+      items: 
+        - Object detection
+        - Optical flow estimation
+        - SLAM
+    - title: Learning-based SLAM
+      items:
+        - NeRF
+        - Learning-based SLAM involving deep frameworks (e.g. DROID-SLAM)
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: Seoul National University, Republic of Korea
+      year: 2022-now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Mechanical Engineering
+        - Supervisor: Prof. Ayoung Kim
+        #- title: Description 3.
+          #contents:
+            #- Sub-description 1.
+            #- Sub-description 2.
+    - title: M.S.
+      institution: Korea Advanced Institute of Science and Technology (KAIST), Republic of Korea
+      year: 2022
       description:
-        - Description 1.
-        - Description 2.
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+        - Robotics Program
+        - Supervisor: Prof. Dong-Soo Kwon
+        - Dissertation
+          * Thermal image-based adult and baby detection robust to thermal residual heat marks. 
+    - title: BEng 
+      institution: University of Bristol, United Kingdom
+      year: 2019
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+        - Department of Electrical and Electronic Engineering
+        - Graduated with First Class Honours
+        - Final Year Project Supervisor: Prof. John Haine
+        - Dissertation
+          * Alternative contact sensing method for CNC machines using Hall-Effect sensors. 
+          
+#- title: Experience
+ # type: time_table
+  #contents:
+    #- title: Professor of Theoretical Physics
+    #  institution: Institute for Advanced Study, Princeton University
+     # year: 1933 - 1955
+     # description:
+      #  - Description 1.
+       # - Description 2.
+       # - title: Description 3.
+      #    contents:
+        #    - Sub-description 1.
+        #    - Sub-description 2.
+   # - title: Visiting Professor
+   #   institution: California Institute of Technology, Pasadena, California, US
+    #  year: 1933
+     ## description:
+      #  - Description 1.
+      #  - Description 2.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    #- title: Director
+     # institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
+    #  year: 1917-1933
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
+    #- title: Professor of Theoretical Physics
+    #  institution: Karl-Ferdinand University, Prague, Czechoslovakia
+   #   year: 1911 - 1917
+    #  description:
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+   # - title: Associate Professor of Theoretical Physics
+    #  institution: University of Zurich, Zurich, Switzerland
+   #   year: 1909 - 1911
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+#- title: Open Source Projects
+ # type: time_table
+ # contents:
+  #  - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+  #    year: 2015-now
+   #   description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2019
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+        - Wertheimer Prize, University of Bristol
+        - Bristol Plus Award
+    #- year: 2029
+      #items: 
+        #- Max Planck Medal
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+#- title: Academic Interests
+ # type: nested_list
+ # contents:
+ #   - title: Topic 1.
+  #    items: 
+  #      - Description 1.
+   #     - Description 2.
+   # - title: Topic 2.
+    #  items:
+    #    - Description 1.
+     #   - Description 2.
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+#- title: Other Interests
+ # type: list
+ # contents:
+  #  - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
