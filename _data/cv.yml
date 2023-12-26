@@ -29,7 +29,7 @@
       year: 2022-now
       description:
         - Mechanical Engineering
-        - Supervisor: Prof. Ayoung Kim
+        - Supervised by Prof. Ayoung Kim
         #- title: Description 3.
           #contents:
             #- Sub-description 1.
@@ -39,7 +39,7 @@
       year: 2022
       description:
         - Robotics Program
-        - Supervisor: Prof. Dong-Soo Kwon
+        - Supervised by Prof. Dong-Soo Kwon
         - Dissertation
           * Thermal image-based adult and baby detection robust to thermal residual heat marks. 
     - title: BEng 
@@ -48,7 +48,7 @@
       description:
         - Department of Electrical and Electronic Engineering
         - Graduated with First Class Honours
-        - Final Year Project Supervisor: Prof. John Haine
+        - Final Year Project Supervised by Prof. John Haine
         - Dissertation
           * Alternative contact sensing method for CNC machines using Hall-Effect sensors. 
           
