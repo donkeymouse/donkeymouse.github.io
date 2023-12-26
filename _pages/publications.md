@@ -24,7 +24,4 @@ An up-to-data list is available on <a href="https://scholar.google.com/citations
 {% bibliography -f {{ site.scholar.bibliography_domestic_journals }} %}
 </div>
 
-### Dissertations
-#<div class="publications">
-#{% bibliography -f {{ site.scholar.bibliography_thesis }} %}
-#</div>
+
