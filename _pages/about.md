@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p>email: donkeymouse@snu.ac.kr</p>
     <p>Pronoun: He/Him </p>
-    <p>My lab page: [RPM robotics Lab](https://rpm.snu.ac.kr) </p>
+    <p>Fun fact: Was born in Korea, Raised up in New Zealand, and now I'm back again! </p>
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
