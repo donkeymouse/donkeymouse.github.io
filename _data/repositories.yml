@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - donkeymouse
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - RPM-Robotics-Lab/sRGB-TIR
+  - donkeymouse/ThermalAdultandBaby
+
+ 
