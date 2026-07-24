@@ -3,119 +3,146 @@
   contents:
     - name: Full Name
       value: Dong-Guw (David) Lee
-    - name: Skills
-      value: Python, C++, MATLAB, Pytorch/TensorFlow, mmcv/mmdetection
-    - name: Languages
-      value: English (native), Korean (native)
+    - name: Email
+      value: donkeymouse@snu.ac.kr
+    - name: Location
+      value: Seoul, Republic of Korea
+    - name: Website
+      value: <a href="https://donkeymouse.github.io/">donkeymouse.github.io</a>
+    - name: Google Scholar
+      value: <a href="https://scholar.google.com/citations?user=u6VDnlgAAAAJ&hl=ko">Scholar profile</a>
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Thermal Infrared Imaging
-      items: 
-        - Object detection
-        - Optical flow estimation
-        - SLAM
-    - title: Learning-based SLAM
+    - title: Thermal Infrared Perception
       items:
-        - NeRF
-        - Learning-based SLAM involving deep frameworks (e.g. DROID-SLAM)
+        - Radiometric representation learning
+        - Thermal object detection and segmentation
+        - Thermal image denoising and tone mapping
+    - title: Robotics and Computer Vision
+      items:
+        - Robot perception for low-light and adverse environments
+        - Place recognition and SLAM-adjacent perception
+        - Underwater robotic monitoring and infrastructure inspection
+    - title: Generative and Vision-Language Models
+      items:
+        - RGB-to-thermal image translation
+        - Controllable visual-language prompting
+        - Synthetic data generation for rare visual classes
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
+    - title: Ph.D. in Mechanical Engineering
       institution: Seoul National University, Republic of Korea
-      year: 2022-now
+      year: Aug. 2026
       description:
-        - Mechanical Engineering
-        - Supervised by Prof. Ayoung Kim
-        #- title: Description 3.
-          #contents:
-            #- Sub-description 1.
-            #- Sub-description 2.
-    - title: M.S.
+        - "Dissertation: Data Scaling and Radiometric Representation Learning for Deep Thermal Perception"
+        - Advised by Dr. Ayoung Kim
+    - title: M.S. in Robotics Program
       institution: Korea Advanced Institute of Science and Technology (KAIST), Republic of Korea
-      year: 2022
+      year: Feb. 2022
       description:
-        - Robotics Program
-        - Supervised by Prof. Dong-Soo Kwon
-        - Dissertation
-          * Thermal image-based adult and baby detection robust to thermal residual heat marks. 
-    - title: BEng 
+        - "Dissertation: Thermal image-based Baby and Adult detection robust to residual thermal heat marks"
+        - Advised by Dr. Dong-Soo Kwon
+    - title: BEng in Electrical and Electronic Engineering
       institution: University of Bristol, United Kingdom
-      year: 2019
+      year: Jun. 2019
       description:
-        - Department of Electrical and Electronic Engineering
         - Graduated with First Class Honours
-        - Final Year Project Supervised by Prof. John Haine
-        - Dissertation
-          * Alternative contact sensing method for CNC machines using Hall-Effect sensors. 
-          
-#- title: Experience
- # type: time_table
-  #contents:
-    #- title: Professor of Theoretical Physics
-    #  institution: Institute for Advanced Study, Princeton University
-     # year: 1933 - 1955
-     # description:
-      #  - Description 1.
-       # - Description 2.
-       # - title: Description 3.
-      #    contents:
-        #    - Sub-description 1.
-        #    - Sub-description 2.
-   # - title: Visiting Professor
-   #   institution: California Institute of Technology, Pasadena, California, US
-    #  year: 1933
-     ## description:
-      #  - Description 1.
-      #  - Description 2.
+        - "Dissertation: An alternative Contact Sensing methods for CNC machines"
+        - Advised by Dr. John Haine
 
-    #- title: Director
-     # institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-    #  year: 1917-1933
+- title: Positions
+  type: time_table
+  contents:
+    - title: Graduate Student Research Assistant
+      institution: Robust Perception and Mobile Robotics Laboratory, Department of Mechanical Engineering, Seoul National University
+      year: Feb. 2022 - 2026
+    - title: Head Graduate Student Teaching Assistant
+      institution: Machine Learning for Mechanical Engineering, Department of Mechanical Engineering, Seoul National University
+      year: Fall 2023
+    - title: Graduate Student Research Assistant
+      institution: Telerobotics and Control Laboratory, Department of Mechanical Engineering, KAIST
+      year: Feb. 2020 - Feb. 2022
 
-    #- title: Professor of Theoretical Physics
-    #  institution: Karl-Ferdinand University, Prague, Czechoslovakia
-   #   year: 1911 - 1917
-    #  description:
+- title: Research Experience
+  type: time_table
+  contents:
+    - title: Underwater Robotic Monitoring of Floating Infrastructure
+      institution: Ministry of Land, Infrastructure and Transport
+      year: 2023 - Present
+      description:
+        - Project Lead, RPM Robotics Lab
+        - Led underwater perception modules for image dehazing, open-vocabulary object detection and segmentation, and vision-based image mosaicing.
+        - Conducted tank and at-sea trials with underwater robots in collaboration with POSTECH.
+        - Developing a training-free method for biofouling segmentation in underwater infrastructure imagery.
+    - title: Thermal Imaging for Smart Construction Environments
+      institution: Ministry of Land, Infrastructure and Transport
+      year: 2023 - Present
+      description:
+        - Graduate Student Research Assistant, RPM Robotics Lab
+        - Developed a state-of-the-art thermal object detection system for construction-site monitoring.
+        - Developing a VLM-based segmentation module for building crack segmentation from thermal imagery.
+    - title: Thermal Image-Based Navigation and Shipyard Monitoring
+      institution: Samsung Heavy Industries
+      year: 2025
+      description:
+        - Project Lead, RPM Robotics Lab
+        - Led a synthetic data generation pipeline and real-time thermal object detector for rare shipyard object classes.
+        - Optimized detection of workers, transport vehicles, and unknown obstacles for day-and-night operation.
+    - title: AI-Based Safety Monitoring in Residential and Industrial Environments
+      institution: Electronics and Telecommunications Research Institute (ETRI)
+      year: 2020 - 2021
+      description:
+        - Graduate Student Research Assistant, KAIST TCL
+        - Collected and managed multimodal safety-monitoring datasets, including thermal infant burn-injury data and IMU safety-harness data.
+        - Obtained Institutional Review Board approval for both data-collection protocols.
+        - Developed thermal adult and infant detection algorithms and IMU-based safety-harness monitoring methods.
 
-   # - title: Associate Professor of Theoretical Physics
-    #  institution: University of Zurich, Zurich, Switzerland
-   #   year: 1909 - 1911
+- title: Invited Talks
+  type: time_table
+  contents:
+    - year: Sep. 2024
+      items:
+        - Talk on Thermal Perception for Robot Autonomy, Samsung Heavy Industries Research Institute, Daejeon, Korea
+    - year: Jul. 2024
+      items:
+        - Journal invitation talk on thermal image-based place recognition, International Conference on Ubiquitous Robots, New York, USA
 
-#- title: Open Source Projects
- # type: time_table
- # contents:
-  #  - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-  #    year: 2015-now
-   #   description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+- title: Service
+  type: nested_list
+  contents:
+    - title: Workshop and Tutorial Organization
+      items:
+        - Workshop Lead for the Workshop on Thermal Infrared in Robotics, ICRA 2025
+    - title: Reviewer
+      items:
+        - IEEE Robotics and Automation Letters (RA-L)
+        - IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+        - European Conference on Computer Vision (ECCV)
+        - Conference on Neural Information Processing Systems (NeurIPS)
+        - IEEE/CVF International Conference on Computer Vision (ICCV)
+        - IEEE International Conference on Robotics and Automation (ICRA)
+        - IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+        - IEEE International Conference on Ubiquitous Robots (UR)
+        - Nature Scientific Reports
 
 - title: Honors and Awards
   type: time_table
   contents:
     - year: 2019
-      items: 
+      items:
         - Wertheimer Prize, University of Bristol
         - Bristol Plus Award
-    #- year: 2029
-      #items: 
-        #- Max Planck Medal
 
-#- title: Academic Interests
- # type: nested_list
- # contents:
- #   - title: Topic 1.
-  #    items: 
-  #      - Description 1.
-   #     - Description 2.
-   # - title: Topic 2.
-    #  items:
-    #    - Description 1.
-     #   - Description 2.
-
-#- title: Other Interests
- # type: list
- # contents:
-  #  - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+- title: Languages and Skills
+  type: map
+  contents:
+    - name: Languages
+      value: Korean (native), English (native)
+    - name: Programming
+      value: MATLAB, C/C++, Python
+    - name: Frameworks
+      value: PyTorch, TensorFlow, ROS
